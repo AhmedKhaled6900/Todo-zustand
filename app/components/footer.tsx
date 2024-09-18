@@ -44,26 +44,26 @@ const Footer = () => {
     
 ]
     return ( 
-        <div className="flex items-center flex-col justify-center mt-10 pt-10 bg-sky-800">
+        <div className="flex items-center flex-col justify-center mt-20 pt-10 bg-sky-800">
 <h1>
 © Copyright Todo All Rights Reserved
 </h1>
 
-<div className="animated-text text-center flex flex-col mt-5">
+<div className=" text-center flex flex-col mt-6">
     <h1 className="text-xl font-semibold">
         Made by    
     </h1>
-    <span className="text-3xl mt-4 font-bold">
+    <span className="text-3xl mt-5 font-bold">
         Ahmed Khaled
     </span>
    
 </div>
-<div className="mt-4 ">
+<div className="mt-6 ">
     <h1 className="text-xl font-semibold ">
         Follow me
     </h1>
 </div>
-<div className="flex items-center justify-between my-4 gap-x-3 lg:gap-x-6 ">
+<div className="flex items-center justify-between my-6 gap-x-3 lg:gap-x-6 ">
     {
         social.map((item)=>(
                 <a href={item.href} className="hover:text-white" target="_blank" rel="noopener noreferrer">
